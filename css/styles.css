@@ -11193,3 +11193,66 @@ filter:invert(1);
   .sb-ritual-card{ padding: 22px; }
   .sb-ritual-name{ font-size: 1.5rem; }
 }
+/* Section */
+.sb-meet{
+  background: #2d2d2d; /* close to screenshot */
+}
+
+/* Top title */
+.sb-meet-title{
+  color: var(--sb-pink-light, #C1A4B3);
+  font-weight: 700;
+  font-size: clamp(2.2rem, 4vw, 3.6rem);
+  margin: 0;
+}
+
+/* Card */
+.sb-meet-card{
+  background: var(--sb-light-gray, #D9D9D9);
+  border-radius: 12px;
+  padding: clamp(2rem, 4vw, 3.5rem);
+  max-width: 1100px;
+  box-shadow: 0 18px 40px rgba(0,0,0,.35);
+}
+
+/* Card title */
+.sb-meet-card-title{
+  color: #333333;
+  font-weight: 700;
+  font-size: clamp(2.2rem, 4vw, 4rem);
+  margin: 0 0 1.2rem;
+}
+
+/* Text */
+.sb-meet-lead{
+  color: #333333;
+  font-weight: 700;
+  margin: 0 auto 1.25rem;
+  max-width: 70ch;
+}
+
+.sb-meet-body{
+  color: #333333;
+  font-weight: 600;
+  opacity: .9;
+  margin: 0 auto 1rem;
+  max-width: 86ch;
+  line-height: 1.8;
+}
+
+/* Button */
+.sb-meet-cta{
+  margin-top: 1.25rem;
+  background: #3a241d; /* deep brown like screenshot */
+  color: var(--sb-yellow, #FECA28);
+  border-radius: 10px;
+  padding: 12px 22px;
+  font-weight: 800;
+  border: 0;
+}
+
+.sb-meet-cta:hover{
+  background: #3a241d;
+  color: var(--sb-yellow, #FECA28);
+  transform: translateY(-1px);
+}
